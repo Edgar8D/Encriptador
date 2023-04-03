@@ -1,0 +1,89 @@
+
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.entrada__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__entrada{
+    width: 40.3rem;
+    height: 40rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.instrucciones{
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+.botones{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.encriptar{
+    background: rgb(63, 186, 190);
+    border: none;
+    border-radius: 24px;
+    font-size: 2rem;
+    height: 4.1875rem;
+    width: 16rem;
+    cursor: pointer;
+    color: rgb(255, 252, 252);
+}
+
+.desencripar{
+    border-radius: 24px;
+    font-size: 2rem;
+    height: 4.1875rem;
+    width: 16rem;
+    cursor: pointer;
+    border-color: darkgray;
+}
+@media screen and (max-width:1150px){
+    .text__entrada{
+        width: 30rem;
+        
+    }
+}
+@media screen and (max-width:768px) {
+    .logo{
+        width: 3em;
+    }
+    .text__entrada{
+        height: 7em;
+        width: 18em;
+        display: flex;
+        justify-content: center;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .encriptar{
+        height: 2rem;
+        width: 10rem;
+        font-size: 1rem;
+        
+    }
+    
+    .desencripar{
+        height: 2em;
+        width: 10em;
+        font-size: 1rem;
+    }
+    .instrucciones{
+        font-size: 0.5rem;
+    }
+}
