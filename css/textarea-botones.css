@@ -20,6 +20,7 @@
 
 }
 
+
 .instrucciones{
     font-size: 1rem;
     padding-left: 1rem;
@@ -60,10 +61,12 @@
         width: 3em;
     }
     .text__entrada{
-        height: 7em;
+        height: 10em;
         width: 18em;
         display: flex;
         justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .contenido{
         display: flex;

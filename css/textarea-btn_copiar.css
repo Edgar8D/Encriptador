@@ -64,7 +64,7 @@
         margin-bottom: 1em;
     }
     .parrafo__div{
-
+        width: 15em;
         padding-bottom: 4em;
 
     }
@@ -83,10 +83,12 @@
         
     }
     .no__mensaje{
-        padding: 0 7.5rem;
+        padding: 7rem 8rem;
         height: 15rem;
-        background-size: 25%;
-        background-position: 50% 10%;
+        background-size: 30%;
+        background-position: 50% 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
 
     }
     .parrafo__div{
@@ -105,7 +107,7 @@
     }
     .copiar{
 
-        margin-top: 11em;
+        margin-top: 15em;
 
     
     }

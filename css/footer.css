@@ -1,0 +1,34 @@
+.section__footer{
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    padding-top: 3em;
+    width: 20em;
+}
+.footer__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__contenedor p{
+    font-size: 1.3em;
+    font-family: Georgia;
+    margin: 0;
+    font-weight: 300;
+}
+
+@media screen and (max-width:768px){
+    .section__footer{
+        padding-left: 10em;
+    }
+}
+@media screen and (max-width:480px) {
+    .section__footer{
+        padding-left: 10em;
+    }
+    .footer__contenedor p{
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+}
